@@ -154,3 +154,19 @@ span{
     font-size: 50px;
     top: 250px;
 }
+#homePage>h1{
+    font-size: 70px;
+    top: 320px;
+}
+#homePage>h4{
+    font-size: 40px;
+    top: 420px;
+}
+#homepageFooter>nav>div{
+    width: 880px;
+    top: 650px;
+    left: 250px;
+}
+#homepageFooter>nav>div>div>a:hover{
+    color: orange;
+}
