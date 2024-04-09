@@ -1,7 +1,7 @@
 #homeBackground{
     position: relative;
     height: 100vh;
-    background: black;
+    background: lightgrey;
 }
 #homePagephotooooo>div{
     background-image: url("../assets/homePagePhoto.jpg");
@@ -29,6 +29,7 @@
 #homeaside>div{
     width: 67px;
     height: 500px;
+    background-color: #959595;
     position: absolute;
     left: 130px;
     top:120px;
@@ -70,7 +71,7 @@
     font-size: 70px;
     position:absolute;
     left: 250px;
-    top: 205px;
+    top: 250px;
     margin: auto;
 }
 #homePage>h1{
@@ -113,5 +114,24 @@
     margin-right: 2px;
 }
 #homepageFooter>nav>div>div>a:hover{
-    color: #ef0;
+    color: orange;
+}
+body>section>h4:first-child{
+    font-size: 5em;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'tradegothiclt-bold', sans-serif;
+}
+
+span{
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+}
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
+}
+#herooo{
+
 }
