@@ -64,3 +64,11 @@
     left: 12px;
     margin: auto;
 }
+#homePage>h2{
+    color: orange;
+    font-size: 70px;
+    position:absolute;
+    left: 250px;
+    top: 205px;
+    margin: auto;
+}
