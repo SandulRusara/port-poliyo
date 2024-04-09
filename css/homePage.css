@@ -25,3 +25,12 @@
          transform: translateY(-3px);
      }
  }
+#homeaside>div{
+    width: 67px;
+    height: 500px;
+    position: absolute;
+    left: 130px;
+    top:120px;
+    margin: auto;
+    border-radius: 10px;
+}
