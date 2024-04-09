@@ -112,3 +112,6 @@
     color: black;
     margin-right: 2px;
 }
+#homepageFooter>nav>div>div>a:hover{
+    color: #ef0;
+}
