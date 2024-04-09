@@ -132,6 +132,15 @@ span{
         border-color: transparent;
     }
 }
-#herooo{
 
+/*--------------------------add media query-------------------------------*/
+@media all and (max-width: 1440px) {
+    #homeBackground{
+        height: auto;
+    }
+}
+#homePagephotooooo>div{
+    width: 450px;
+    top: 125px;
+    right: 60px;
 }
