@@ -1,0 +1,27 @@
+#homeBackground{
+    position: relative;
+    height: 100vh;
+}
+#homePagephotooooo>div{
+    background-image: url("../assets/homePagePhoto.jpg");
+    background-position:top;
+    width: 450px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    position: absolute;
+    top: 120px;
+    right: 60px;
+    margin: auto;
+    overflow: hidden;
+    animation: card 2s infinite;
+}@keyframes card {
+     0% {
+         transform: translateY(-3px);
+     }
+     50% {
+         transform: translateY(3px);
+     }
+     100% {
+         transform: translateY(-3px);
+     }
+ }
