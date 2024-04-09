@@ -81,3 +81,11 @@
     top: 320px;
     margin: auto;
 }
+#homePage>h4{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    left: 250px;
+    top: 420px;
+    margin: auto;
+}
