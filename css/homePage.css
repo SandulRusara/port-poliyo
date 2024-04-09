@@ -104,3 +104,11 @@
     display: flex;
     justify-content: space-around;
 }
+#homepageFooter>nav>div>i{
+    display: none;
+}
+#homepageFooter>nav>div>div>a{
+    text-decoration: none;
+    color: black;
+    margin-right: 2px;
+}
