@@ -172,3 +172,14 @@ span{
 }
 
 /*max-with 1024*/
+
+@media all and (max-width: 1024px){
+    #homeBackground{
+        height: auto;
+    }
+}
+#homePagephotooooo>div{
+    width: 379px;
+    top: 40px;
+    right: 20px;
+}
