@@ -1,5 +1,5 @@
-/*#aboutpage{*/
-/*    position: relative;*/
-/*    height: 100vh;*/
-/*    background-image: linear-gradient(black,grey);*/
-/*}*/
+#aboutpage{
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(black,grey);
+}
