@@ -22,3 +22,17 @@
     margin: auto;
     border-radius: 10px;
 }
+#aboutpage>aside>div>h3{
+    font-size: 30px;
+    color: orange;
+    position: absolute;
+    left: 150px;
+    top: 8px;
+    margin: auto;
+}
+#aboutpage>figure{
+    position: absolute;
+    top: 210px;
+    left: 1020px;
+    margin: auto;
+}
