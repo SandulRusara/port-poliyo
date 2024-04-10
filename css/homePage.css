@@ -202,3 +202,14 @@ span{
     font-size: 30px;
     top: 455px;
 }
+#homepageFooter>nav>div{
+    width: 629px;
+    top: 640px;
+    left: 190px;
+    font-size: 17px;
+    padding-left: 53px;
+    padding-top: 17px;
+}
+#homepageFooter>nav>div>div>a:hover{
+    color: orange;
+}
