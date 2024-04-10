@@ -36,3 +36,10 @@
     left: 1020px;
     margin: auto;
 }
+#aboutpage>main>div{
+    width: 750px;
+    height: 450px;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
