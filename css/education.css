@@ -1,0 +1,15 @@
+#educationpage{
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient( black , gray);
+}
+#educationpage>header>div{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #5F6160;
+    opacity: 50%;
+    position: absolute;
+    left: 580px;
+    margin: auto;
+}
