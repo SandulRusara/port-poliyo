@@ -13,3 +13,10 @@
     left: 580px;
     margin: auto;
 }
+#educationpage>header>div>h3{
+    color: orange;
+    font-size: 35px;
+    position: absolute;
+    left: 125px;
+    margin: auto;
+}
