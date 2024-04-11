@@ -49,3 +49,7 @@
 .card1:not(:first-child){
     margin-left: -50px;
 }
+.card1:hover{
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+}
