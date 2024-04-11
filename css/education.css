@@ -20,3 +20,18 @@
     left: 125px;
     margin: auto;
 }
+.description{
+    position: absolute;
+    top:100px;
+    color : white;
+    font-size:13px;
+    text-align:center;
+}
+.container1{
+    position: absolute;
+    height: 300px;
+    width: 750px;
+    top: 200px;
+    left: 400px;
+    display: flex;
+}
