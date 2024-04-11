@@ -46,3 +46,6 @@
     position: relative;
     left: 0px;
 }
+.card1:not(:first-child){
+    margin-left: -50px;
+}
