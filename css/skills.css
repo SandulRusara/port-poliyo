@@ -34,3 +34,9 @@
     top: 100px;
     position: relative;
 }
+
+#firstSkill{
+    position: absolute;
+    left: 100px;
+    top: 300px;
+}
