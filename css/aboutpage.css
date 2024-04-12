@@ -1,7 +1,7 @@
 #aboutpage{
     position: relative;
     height: 100vh;
-    background-image: linear-gradient(black,grey);
+    background-image: linear-gradient(gray,black);
 }
 #aboutpage>header>h1{
     position: absolute;

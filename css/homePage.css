@@ -1,7 +1,7 @@
 #homeBackground{
     position: relative;
     height: 100vh;
-    background-image: linear-gradient(black,grey);
+    background-image: linear-gradient(gray,black);
 }
 #homePagephotooooo>div{
     background-image: url("../assets/homePagePhoto.jpg");

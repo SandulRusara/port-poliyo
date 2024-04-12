@@ -1,7 +1,7 @@
 #educationPage{
     position: relative;
     height: 100vh;
-    background-image: linear-gradient(black,gray);
+    background-image: linear-gradient(gray,black);
 }
 #educationPage>header>div{
     width: 400px;

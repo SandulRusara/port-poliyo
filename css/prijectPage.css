@@ -1,5 +1,13 @@
 #projectPage{
     position: relative;
     height: 100vh;
-    background-image: linear-gradient(black,gray);
+    background-image: linear-gradient(gray,black);
+}
+#projectPage>aside>div>h3{
+    font-size: 30px;
+    color: #F5F5F5;
+    position: absolute;
+    left: 150px;
+    top: 8px;
+    margin: auto;
 }
