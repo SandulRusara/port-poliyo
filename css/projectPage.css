@@ -99,3 +99,11 @@
     margin-bottom: 50px;
     margin-left: 1050px;
 }
+#projectPage>header>h1{
+    position: absolute;
+    color:grey;
+    opacity: 35%;
+    font-size: 180px;
+    left: 800px;
+    margin: auto;
+}
