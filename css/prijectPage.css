@@ -5,7 +5,7 @@
 }
 #projectPage>aside>div>h3{
     font-size: 30px;
-    color: #F5F5F5;
+    color: #FF7600;
     position: absolute;
     left: 150px;
     top: 8px;
@@ -89,8 +89,13 @@
     margin-bottom: 50px;
     margin-left: 350px;
 }
-#card2{
+#card3{
     position: absolute;
     margin-bottom: 50px;
     margin-left: 700px;
+}
+#card4{
+    position: absolute;
+    margin-bottom: 50px;
+    margin-left: 1050px;
 }
