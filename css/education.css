@@ -109,7 +109,7 @@
 }
 
 .stroke {
-    stroke: white;
+    stroke:orange;
     stroke-dasharray: 360;
     stroke-dashoffset: 360;
     transition: 0.6s ease-out;
