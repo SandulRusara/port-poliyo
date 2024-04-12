@@ -1,0 +1,5 @@
+#assignmentPage{
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(gray,black);
+}
