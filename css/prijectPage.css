@@ -84,3 +84,8 @@
     color: #f7ba2b;
     transition: color 1s;
 }
+#card2 {
+    position: absolute;
+    margin-bottom: 50px;
+    margin-left: 350px;
+}
