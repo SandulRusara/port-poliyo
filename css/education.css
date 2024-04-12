@@ -1,9 +1,9 @@
-#educationpage{
+#educationPage{
     position: relative;
     height: 100vh;
-    background-image: linear-gradient( black , gray);
+    background-image: linear-gradient(black,gray);
 }
-#educationpage>header>div{
+#educationPage>header>div{
     width: 400px;
     height: 50px;
     border-radius: 10px;
@@ -13,8 +13,8 @@
     left: 580px;
     margin: auto;
 }
-#educationpage>header>div>h3{
-    color: orange;
+#educationPage>header>div>h3{
+    color: #66FCF1;
     font-size: 35px;
     position: absolute;
     left: 125px;
@@ -27,7 +27,7 @@
     font-size:13px;
     text-align:center;
 }
-.container1{
+.container01 {
     position: absolute;
     height: 300px;
     width: 750px;
@@ -35,45 +35,379 @@
     left: 400px;
     display: flex;
 }
-.card1{
+
+.card01 {
     display: flex;
     height: 280px;
     width: 200px;
     background-color: #17141d;
     border-radius: 10px;
     box-shadow: -1rem 0 3rem #000;
+    /*   margin-left: -50px; */
     transition: 0.4s ease-out;
     position: relative;
     left: 0px;
 }
-.card1:not(:first-child){
+
+.card01:not(:first-child) {
     margin-left: -50px;
 }
-.card1:hover{
+
+.card01:hover {
     transform: translateY(-20px);
     transition: 0.4s ease-out;
 }
-.card1:hover ~ .card1{
+
+.card01:hover ~ .card01 {
     position: relative;
     left: 50px;
     transition: 0.4s ease-out;
 }
-.tittle{
+
+.title {
     color: white;
     font-weight: 300;
     position: absolute;
     left: 20px;
     top: 15px;
 }
-.bar{
+
+.bar {
     position: absolute;
     top: 100px;
     left: 20px;
     height: 5px;
     width: 150px;
 }
-.emptybar{
+
+.emptybar {
     background-color: #2e3033;
     width: 100%;
     height: 100%;
 }
+
+.filledbar {
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    width: 0px;
+    height: 100%;
+    background: rgb(0,154,217);
+    background: linear-gradient(90deg, rgba(0,154,217,1) 0%, rgba(217,147,0,1) 65%, rgba(255,186,0,1) 100%);
+    transition: 0.6s ease-out;
+}
+
+.card01:hover .filledbar {
+    width: 120px;
+    transition: 0.4s ease-out;
+}
+
+.circle {
+    position: absolute;
+    top: 150px;
+    left: calc(50% - 60px);
+}
+
+.stroke {
+    stroke: white;
+    stroke-dasharray: 360;
+    stroke-dashoffset: 360;
+    transition: 0.6s ease-out;
+}
+
+svg {
+    fill: #17141d;
+    stroke-width: 2px;
+}
+
+.card01:hover .stroke {
+    stroke-dashoffset: 100;
+    transition: 0.6s ease-out;
+}
+#educationPage>footer>h1{
+    position: absolute;
+    color: #F5F5F5;
+    opacity: 35%;
+    font-size: 180px;
+    left: 20px;
+    bottom: 10px;
+    margin: auto;
+}
+
+/*--------------------------- Media Query -----------------------------*/
+
+/* Media Query for max-width 1440px */
+@media (max-width: 1440px) {
+    #educationPage>header>div {
+        width: 450px;
+        height: 60px;
+        left: 477px;
+    }
+
+    #educationPage>header>div>h3 {
+        font-size: 45px;
+        padding-top: 5px;
+    }
+
+    .container01 {
+        width: 700px;
+        top: 250px;
+        left: 354px;
+    }
+
+    .card01 {
+        width: 180px;
+        height: 280px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .bar {
+        top: 90px;
+        left: 10px;
+    }
+
+    .emptybar {
+        width: 80%;
+    }
+
+    .filledbar {
+        width: 90px;
+    }
+
+    .circle {
+        left: calc(50% - 50px);
+    }
+
+    #educationPage>footer>h1 {
+        font-size: 180px;
+    }
+}
+
+/* Media Query for max-width 1024px */
+@media (max-width: 1024px) {
+    #educationPage{
+        /*width: 1047px;*/
+        width: auto;
+        height: 100vh;
+    }
+    #educationPage>header>div {
+        width: 377px;
+        left: 333px;
+    }
+
+    #educationPage>header>div>h3 {
+        font-size: 35px;
+        margin-left: -13px;
+        margin-top: 8px;
+    }
+
+    .container01 {
+        width: 600px;
+        left: 220px;
+    }
+
+    .card01 {
+        width: 200px;
+        height: 296px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .bar {
+        top: 90px;
+        left: 10px;
+    }
+
+    .emptybar {
+        width: 80%;
+    }
+
+    .filledbar {
+        width: 90px;
+    }
+
+    .circle {
+        left: calc(50% - 50px);
+    }
+
+    #educationPage>footer>h1 {
+        font-size: 150px;
+    }
+}
+
+/* Media Query for max-width 768px */
+@media (max-width: 768px) {
+    #educationPage{
+        width: 925px;
+        /* width: auto; */
+        height: 1014px;
+    }
+    #educationPage>header>div {
+        width: 400px;
+        left: 193px;
+    }
+
+    #educationPage>header>div>h3 {
+        font-size: 40px;
+        left: 117px;
+    }
+
+    .container01 {
+        width: 575px;
+        top: 353px;
+        left: 120px;
+    }
+
+    .card01 {
+        width: 180px;
+        height: 250px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .bar {
+        top: 90px;
+        left: 10px;
+    }
+
+    .emptybar {
+        width: 80%;
+    }
+
+    .filledbar {
+        width: 90px;
+    }
+
+    .circle {
+        left: calc(50% - 50px);
+    }
+
+    #educationPage>footer>h1 {
+        font-size: 130px;
+    }
+}
+
+/* Media Query for max-width 425px */
+@media (max-width: 426px) {
+    #educationPage>header>div {
+        width: 296px;
+        left: 62px;
+    }
+
+    #educationPage>header>div>h3 {
+        font-size: 40px;
+        left:66px;
+    }
+
+    .container01 {
+        display: flex;
+        width: 386px;
+        top: 156px;
+        left: 58px;
+        flex-wrap: wrap;
+    }
+
+    .card01 {
+        margin: 0;
+        width: 180px;
+        height: 250px;
+    }
+
+    .title {
+        font-size: 18px;
+        left: 21px;
+    }
+
+    .bar {
+        top: 90px;
+        left: 10px;
+    }
+
+    .emptybar {
+        width: 80%;
+    }
+
+    .filledbar {
+        width: 90px;
+    }
+
+    .circle {
+        left: calc(50% - 50px);
+    }
+
+    #educationPage>footer>h1 {
+        font-size: 77px;
+        left: 0;
+    }
+}
+
+/* Media Query for max-width 375px */
+@media (max-width: 376px) {
+    #educationPage>header>div {
+        width: 244px;
+        left: 62px;
+    }
+
+    #educationPage>header>div>h3 {
+        font-size: 40px;
+        left: 39px;
+    }
+
+    .container01 {
+        display: flex;
+        width: 350px;
+        top: 156px;
+        left: 58px;
+        flex-wrap: wrap;
+    }
+
+    .card01 {
+        margin: 0;
+        width: 168px;
+        height: 250px;
+    }
+
+    .card01:hover ~ .card01 {
+        position: relative;
+        left: 21px;
+        transition: 0.4s ease-out;
+    }
+
+    .title {
+        font-size: 18px;
+        left: 21px;
+    }
+
+    .bar {
+        top: 90px;
+        left: 10px;
+    }
+
+    .emptybar {
+        width: 80%;
+    }
+
+    .filledbar {
+        width: 90px;
+    }
+
+    .circle {
+        left: calc(50% - 50px);
+    }
+
+    #educationPage>footer>h1 {
+        font-size: 77px;
+        left: 0;
+    }
+}
+
+
+
+
