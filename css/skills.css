@@ -30,3 +30,7 @@
     top: 8px;
     margin: auto;
 }
+#fullSkillTags{
+    top: 100px;
+    position: relative;
+}
