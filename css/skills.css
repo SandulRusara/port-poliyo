@@ -3,3 +3,11 @@
     height: 100vh;
     background-image: linear-gradient(black,grey);
 }
+#skillPage>header>h1{
+    position: absolute;
+    color: #F5F5F5;
+    opacity: 35%;
+    font-size: 180px;
+    left: 950px;
+    margin: auto;
+}
