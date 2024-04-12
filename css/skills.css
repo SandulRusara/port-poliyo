@@ -45,4 +45,27 @@
     left: 350px;
     top: 300px;
 }
+#thirdSkill{
+    position: absolute;
+    left: 600px;
+    top: 300px;
+}
+
+#fourthSkill{
+    position: absolute;
+    left: 850px;
+    top: 310px;
+}
+
+#fifthSkill{
+    position: absolute;
+    left: 1080px;
+    top: 310px;
+}
+
+#sixthSkill{
+    position: absolute;
+    left: 1300px;
+    top: 310px;
+}
 
