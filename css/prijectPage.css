@@ -25,3 +25,23 @@
 .card1-info>p{
     color: white;
 }
+.project{
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    margin-top: 14rem;
+}
+.card1 {
+    --background: linear-gradient(snow,gainsboro);
+    width: 220px;
+    height: 300px;
+    padding: 5px;
+    border-radius: 1rem;
+    overflow: visible;
+    background: #f7ba2b;
+    background: var(--background);
+    position: relative;
+    top: 350px;
+    left: 150px;
+    z-index: 1;
+}
