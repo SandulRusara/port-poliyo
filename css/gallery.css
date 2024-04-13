@@ -1,0 +1,26 @@
+#galleryPage {
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(black,grey);
+
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,700&display=swap");
+html {
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    touch-action: pan-y;
+    font-size: 62.5%;
+    font-smooth: always;
+    text-rendering: optimizeLegibility;
+    -ms-overflow-style: scrollbar;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+}
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
