@@ -24,3 +24,13 @@ html {
 ::after {
     box-sizing: border-box;
 }
+body {
+    font-family: inherit;
+    font-size: 1.6rem;
+    background-color: #1d1e22;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(circle at center, #444444, #1d1e22 80%, #1d1e22 100%);
+}
