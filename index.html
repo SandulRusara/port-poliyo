@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/projectPage.css">
     <link rel="stylesheet" href="css/assignments.css">
     <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/gallery.css">
 </head>
 <body>
 <section id="homeBackground">
@@ -479,20 +480,179 @@
         </div>
     </main>
 </section>
-<header>
-    <h3 id="gallery">Gallery</h3>
-</header>
-<main>
-    <div>
-        <img src="assets/WhatsApp%20Image%202024-02-06%20at%2019.17.44_b358970f.jpg" alt="" width="300">
-        <img src="assets/WhatsApp%20Image%202024-02-06%20at%2019.19.32_f68271b3.jpg" alt="" width="270">
-        <img src="assets/WhatsApp%20Image%202024-02-06%20at%2019.17.44_0c3d6957.jpg" alt="" width="300">
-        <img src="assets/WhatsApp%20Image%202024-02-06%20at%2019.18.37_a9895bb6.jpg" alt="" width="170"> <br>
-        <img src="assets/WhatsApp%20Image%202024-02-06%20at%2019.19.04_4fdafa06.jpg" alt="" width="170">
-        <img src="assets/WhatsApp%20Image%202024-02-06%20at%2019.17.44_0c3d6957.jpg" alt="" width="170">
-        <img src="assets/about.jpg" alt="" width="170">
-    </div>
-</main>
+<section id="galleryPage">
+    <header>
+        <div>
+            <h3 id="gallery">Gallery</h3>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="slider">
+                <input class="slider-target" type="radio" id="slide-0" name="slider"/>
+                <input class="slider-target" type="radio" id="slide-1" name="slider"/>
+                <input class="slider-target" type="radio" id="slide-2" name="slider"/>
+                <input class="slider-target" type="radio" id="slide-3" name="slider" checked="checked"/>
+                <input class="slider-target" type="radio" id="slide-4" name="slider"/>
+                <input class="slider-target" type="radio" id="slide-5" name="slider"/>
+                <input class="slider-target" type="radio" id="slide-6" name="slider"/>
+                <div class="slider__viewport">
+                    <div class="slider__viewbox">
+                        <div class="slider__container">
+                            <div class="slider-item">
+                                <div class="slider-item__inner">
+                                    <label class="slider-item__trigger" for="slide-0" title="Show product 0"></label>
+                                    <a class="card" target="_blank" style="background-image: url(assets/G1.jpg);
+                                     background-size: cover">
+                                        <div class="card__container">
+                                            <div class="card__image"></div>
+                                            <div class="card__content">
+                                                <p class="card-meta"><span class="card-meta-item">2019</span>
+                                                    <span class="card-meta-item">2h 2m</span></p>
+                                                <h2 class="card-title">Music</h2>
+                                                <ul class="card-tag-list">
+                                                    <li class="card-tag-list-item">Happy</li>
+                                                    <li class="card-tag-list-item">Living</li>
+                                                    <li class="card-tag-list-item">Life</li>
+                                                </ul>
+                                                <!--<p class="card-description">A mentally troubled stand-up comedian embarks
+                                                    on a downward spiral that leads to the creation of an iconic villain.</p>-->
+                                            </div>
+                                        </div></a>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-item__inner">
+                                    <label class="slider-item__trigger" for="slide-1" title="Show product 1"></label>
+                                    <a class="card" target="_blank" style="background-image: url(assets/G2.jpg);
+                                    background-size: cover">
+                                        <div class="card__container">
+                                            <div class="card__image"></div>
+                                            <div class="card__content">
+                                                <p class="card-meta"><span class="card-meta-item">2022</span>
+                                                    <span class="card-meta-item">1h 40m</span></p>
+                                                <h2 class="card-title">New Year's Eve</h2>
+                                                <ul class="card-tag-list">
+                                                    <li class="card-tag-list-item">Happy</li>
+                                                    <li class="card-tag-list-item">Feeling</li>
+                                                    <li class="card-tag-list-item">Entertaining</li>
+                                                </ul>
+                                            </div>
+                                        </div></a>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-item__inner">
+                                    <label class="slider-item__trigger" for="slide-2" title="Show product 2"></label>
+                                    <a class="card" id="nineArchPhoto" target="_blank" style="background-image: url(assets/G3.jpg);
+                                    background-size: cover">
+                                        <div class="card__container">
+                                            <div class="card__image"></div>
+                                            <div class="card__content">
+                                                <p class="card-meta"><span class="card-meta-item">2022</span>
+                                                    <span class="card-meta-item">2h 49m</span></p>
+                                                <h2 class="card-title">Friends</h2>
+                                                <ul class="card-tag-list">
+                                                    <li class="card-tag-list-item">Enjoy</li>
+                                                    <li class="card-tag-list-item">Experience</li>
+                                                    <li class="card-tag-list-item">Entertaining</li>
+                                                </ul>
+                                            </div>
+                                        </div></a>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-item__inner">
+                                    <label class="slider-item__trigger" for="slide-3" title="Show product 3"></label><a
+                                        class="card" target="_blank" style="background-image: url(assets/G4.jpg);
+                                        background-size: cover">
+                                    <div class="card__container">
+                                        <div class="card__image"></div>
+                                        <div class="card__content">
+                                            <p class="card-meta"><span class="card-meta-item">2023</span>
+                                                <span class="card-meta-item">2h 28m</span></p>
+                                            <h2 class="card-title">Vibe</h2>
+                                            <ul class="card-tag-list">
+                                                <li class="card-tag-list-item">Happy</li>
+                                                <li class="card-tag-list-item">Feel</li>
+                                                <li class="card-tag-list-item">Fantasy</li>
+                                            </ul>
+                                        </div>
+                                    </div></a>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-item__inner">
+                                    <label class="slider-item__trigger" for="slide-4" title="Show product 4"></label>
+                                    <a class="card" target="_blank" style="background-image: url(assets/G5.jpg);
+                                    background-size: cover">
+                                        <div class="card__container">
+                                            <div class="card__image"></div>
+                                            <div class="card__content">
+                                                <p class="card-meta"><span class="card-meta-item">2022</span>
+                                                    <span class="card-meta-item">2h 56m</span></p>
+                                                <h2 class="card-title">Uma Garden</h2>
+                                                <ul class="card-tag-list">
+                                                    <li class="card-tag-list-item">Happy</li>
+                                                    <li class="card-tag-list-item">Living</li>
+                                                    <li class="card-tag-list-item">Life</li>
+                                                </ul>
+                                            </div>
+                                        </div></a>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-item__inner">
+                                    <label class="slider-item__trigger" for="slide-5" title="Show product 5"></label>
+                                    <a class="card" target="_blank" style="background-image: url(assets/G6.jpg);
+                                    background-size: cover">
+                                        <div class="card__container">
+                                            <div class="card__image"></div>
+                                            <div class="card__content">
+                                                <p class="card-meta"><span class="card-meta-item">2023</span>
+                                                    <span class="card-meta-item">2h 10m</span></p>
+                                                <h2 class="card-title">Hotel Thurya</h2>
+                                                <ul class="card-tag-list">
+                                                    <li class="card-tag-list-item">Action</li>
+                                                    <li class="card-tag-list-item">Adventure</li>
+                                                    <li class="card-tag-list-item">Fantasy</li>
+                                                </ul>
+                                            </div>
+                                        </div></a>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-item__inner">
+                                    <label class="slider-item__trigger" for="slide-6" title="Show product 6"></label>
+                                    <a class="card" target="_blank" style="background-image: url(assets/G7.jpg);
+                                     background-size: cover">
+                                        <div class="card__container">
+                                            <div class="card__image"></div>
+                                            <div class="card__content">
+                                                <p class="card-meta"><span class="card-meta-item">2021</span>
+                                                    <span class="card-meta-item">2h 19m</span></p>
+                                                <h2 class="card-title">Beach</h2>
+                                                <ul class="card-tag-list">
+                                                    <li class="card-tag-list-item">Happy</li>
+                                                    <li class="card-tag-list-item">Enjoy</li>
+                                                    <li class="card-tag-list-item">Relax</li>
+                                                </ul>
+                                            </div>
+                                        </div></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+<!--    <footer>-->
+<!--        <h1>Gallery</h1>-->
+<!--    </footer>-->
+</section>
+
+
 
 <header>
     <h1 id="contact">Contact</h1>
