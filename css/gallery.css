@@ -34,3 +34,60 @@ body {
     padding: 0;
     background-image: radial-gradient(circle at center, #444444, #1d1e22 80%, #1d1e22 100%);
 }
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.slider {
+    position: relative;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+.slider__viewport {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.slider__viewbox {
+    display: block;
+    position: relative;
+    perspective: 100vw;
+    margin: 0 auto;
+    width: 33.3333333333%;
+    max-width: calc(50vh);
+    z-index: 0;
+}
+.slider__viewbox::before {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+    height: 0;
+    padding-bottom: 150%;
+    width: 100%;
+}
+.slider__container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: transform 0.3s cubic-bezier(0.62, 0.28, 0.23, 0.99) 0.3s;
+    transform-style: preserve-3d;
+}
+.slider-target {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+input.slider-target {
+    display: none;
+}
