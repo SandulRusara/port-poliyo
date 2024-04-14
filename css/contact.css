@@ -1,0 +1,144 @@
+#contactPage{
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(grey,black);
+}
+#contactPage>header>h1{
+    position: absolute;
+    color: #F5F5F5;
+    opacity: 35%;
+    font-size: 180px;
+    left: 800px;
+    margin: auto;
+}
+#contactPage>aside>div{
+    width: 70px;
+    height: 500px;
+    background-color: #1A1A1A;
+    position: absolute;
+    right: 380px;
+    top: 230px;
+    margin: auto;
+    border-radius: 10px;
+}
+#Linkedin1{
+    position: relative;
+    left: 12px;
+    top: 20px;
+    margin: auto;
+}
+#Whatsapp1{
+    position:relative;
+    top: 70px;
+    left: 12px;
+    margin: auto;
+}
+#Github1{
+    position: relative;
+    top: 130px;
+    left: 12px;
+    margin: auto;
+}
+#Medium1{
+    position: relative;
+    top: 190px;
+    left: 12px;
+    margin: auto;
+}
+#Gmail1{
+    position: relative;
+    top: 250px;
+    left: 12px;
+    margin: auto;
+}
+#contactPage>section>div{
+    width: 300px;
+    height: 50px;
+    background-color: #5F6160;
+    opacity: 50%;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    margin: auto;
+    border-radius: 10px;
+}
+#contactPage>section>div>h3{
+    font-size: 30px;
+    color: #F5F5F5;
+    position: absolute;
+    left: 130px;
+    top: 8px;
+    margin: auto;
+}
+.contact-form {
+    position: absolute;
+    top: 280px;
+    left: 500px;
+    width: 550px;
+    background-color:grey;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-form label {
+    color: white;
+}
+
+.contact-form .heading {
+    font-size: 24px;
+    color: white;
+;
+    margin-bottom: 12px;
+    font-weight: bold;
+    display: block;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+    width: 510px;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #ff6384;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #ff6384;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+#contactPage>footer>h3{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    color: #f0f0f0;
+}

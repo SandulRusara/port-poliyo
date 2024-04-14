@@ -1,7 +1,7 @@
 #skillPage{
     position: relative;
     height: 100vh;
-    background-image: linear-gradient(black,grey);
+    background-image: linear-gradient(grey,black);
 }
 #skillPage>header>h1{
     position: absolute;
