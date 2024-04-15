@@ -126,6 +126,54 @@ svg {
 }
 
 
+@media (max-width: 1440px) {
+    #educationPage>header>div {
+        width: 450px;
+        height: 60px;
+        left: 477px;
+    }
+
+    #educationPage>header>div>h3 {
+        font-size: 45px;
+        padding-top: 5px;
+    }
+
+    .container01 {
+        width: 700px;
+        top: 250px;
+        left: 354px;
+    }
+
+    .card01 {
+        width: 180px;
+        height: 280px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .bar {
+        top: 90px;
+        left: 10px;
+    }
+
+    .emptybar {
+        width: 80%;
+    }
+
+    .filledbar {
+        width: 90px;
+    }
+
+    .circle {
+        left: calc(50% - 50px);
+    }
+
+    #educationPage>footer>h1 {
+        font-size: 180px;
+    }
+}
 
 
 

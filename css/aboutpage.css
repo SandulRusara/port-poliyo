@@ -137,3 +137,53 @@
     color: whitesmoke;
     margin-right: 2px;
 }
+
+
+/* Media Query for max-width 1440px */
+@media (max-width: 1440px) {
+
+    #aboutpage>header>h1 {
+        font-size: 180px;
+        left: 850px;
+        top: 25px;
+    }
+
+    #aboutpage>aside>div {
+        width: 300px;
+        top: 125px;
+    }
+
+    #aboutpage>aside>div>h3 {
+        font-size: 30px;
+        left: 149px;
+    }
+
+    #aboutpage>figure {
+        top: 261px;
+        left: 909px;
+    }
+
+    #aboutpage>main>div {
+        width: 600px;
+        height: 350px;
+        top: 264px;
+        left: 198px;
+    }
+
+    #aboutpage>main>div>p {
+        font-size: 20px;
+    }
+
+    #aboutpage>section>div {
+        width: 180px;
+        bottom: 100px;
+    }
+
+    #aboutpage>section>.button-86 {
+        width: 125px;
+        height: 24px;
+        font-size: 20px;
+        left: 666px;
+        bottom: 181px;
+    }
+}
