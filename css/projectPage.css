@@ -134,4 +134,15 @@
         top: 300px;
         left: 74px;
     }
+    #card2 {
+        margin-left: 400px;
+    }
+
+    #card3 {
+        margin-left: 750px;
+    }
+
+    #card4 {
+        margin-left: 1100px;
+    }
 }
