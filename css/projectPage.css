@@ -128,4 +128,10 @@
         letter-spacing: .1em;
         left: 5px;
     }
+    .card1 {
+        width: 209px;
+        height: 299px;
+        top: 300px;
+        left: 74px;
+    }
 }
