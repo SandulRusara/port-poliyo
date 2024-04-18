@@ -123,4 +123,9 @@
         font-size: 30px;
         left: 149px;
     }
+    .card1 .title {
+        font-weight: bold;
+        letter-spacing: .1em;
+        left: 5px;
+    }
 }
