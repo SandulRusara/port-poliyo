@@ -424,3 +424,17 @@ input.slider-target {
     left: 125px;
     margin: auto;
 }
+
+/* Media Query for max-width 1440px */
+@media (max-width: 1440px) {
+    #galleryPage>header>div {
+        width: 409px;
+        left: 550px;
+    }
+
+    #galleryPage>header>div>h3 {
+        font-size: 30px;
+        left: 150px;
+        top: 8px;
+    }
+}
