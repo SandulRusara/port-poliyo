@@ -163,3 +163,96 @@
 /*    margin: auto;*/
 /*}*/
 
+@media (max-width: 1440px) {
+    #assignmentPage>header>div {
+        width: 450px;
+        left: 479px;
+    }
+
+    #assignmentPage>header>div>h3 {
+        font-size: 30px;
+        left: 122px;
+        top: 8px;
+    }
+
+    .flip-card {
+        width: 180px;
+        height: 234px;
+        margin-top: 92px;
+        margin-left: 50px;
+    }
+
+    .liveass {
+        bottom: 100px;
+        left: 10px;
+    }
+
+    .gitass {
+        bottom: 30px;
+        left: 50px;
+        color: white;
+    }
+
+    .title {
+        font-size: 1.2em;
+    }
+
+    .title1 {
+        font-size: 1.2em;
+    }
+
+    #flipCard2 {
+        margin-left: 290px;
+        margin-top: 92px;
+    }
+
+    #flipCard3 {
+        margin-left: 515px;
+        margin-top: 92px;
+    }
+
+    #flipCard4 {
+        margin-left: 750px;
+        margin-top: 92px;
+    }
+
+    #flipCard5 {
+        margin-left: 980px;
+        margin-top: 92px;
+    }
+
+    #flipCard6 {
+        margin-left: 1205px;
+        margin-top: 92px;
+    }
+
+    #flipCard7 {
+        margin-left: 50px;
+        margin-top: 350px;
+    }
+
+    #flipCard8 {
+        margin-left: 290px;
+        margin-top: 350px;
+    }
+
+    #flipCard9 {
+        margin-left: 515px;
+        margin-top: 350px;
+    }
+
+    #flipCard10 {
+        margin-left: 750px;
+        margin-top: 350px;
+    }
+
+    #flipCard11 {
+        margin-left: 980px;
+        margin-top: 350px;
+    }
+
+    #flipCard12 {
+        margin-left: 1205px;
+        margin-top: 350px;
+    }
+}
