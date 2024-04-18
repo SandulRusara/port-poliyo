@@ -115,4 +115,8 @@
         left: 707px;
         top: 30px;
     }
+    #projectPage>aside>div {
+        width: 300px;
+        top: 125px;
+    }
 }
