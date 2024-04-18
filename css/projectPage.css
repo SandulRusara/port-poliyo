@@ -108,3 +108,11 @@
     margin: auto;
 }
 
+/* Media Query for max-width 1440px */
+@media (max-width: 1440px) {
+    #projectPage > header > h1 {
+        font-size: 180px;
+        left: 707px;
+        top: 30px;
+    }
+}
