@@ -142,3 +142,30 @@ textarea {
     bottom: 10px;
     color: #f0f0f0;
 }
+
+/* Media Query for max-width 1440px */
+@media (max-width: 1440px) {
+
+    #contactPage>header>h1 {
+        font-size: 180px;
+        left: 750px;
+        top: 25px;
+    }
+
+    #contactPage>section>div {
+        width: 300px;
+        top: 126px;
+    }
+    #contactPage>section>div>h3 {
+        font-size: 30px;
+        left: 130px;
+        top: 8px;
+    }
+
+    .contact-form{
+        left: 384px;
+    }
+    #contactPage>aside>div{
+        right: 364px;
+    }
+}

@@ -95,10 +95,10 @@
     height: 50px;
     background-color: #959595;
     position: absolute;
-    /*top: 30px;*/
-    /*right: 90px;*/
-    top:650px;
-    left: 400px;
+    top: 30px;
+    right: 90px;
+    /*top:650px;*/
+    /*left: 400px;*/
     margin: auto;
     border-radius: 10px;
     font-size: 25px;
