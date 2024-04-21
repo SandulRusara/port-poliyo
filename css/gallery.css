@@ -438,3 +438,17 @@ input.slider-target {
         top: 8px;
     }
 }
+
+/* Media Query for max-width 1024px */
+@media (max-width: 1024px) {
+    #galleryPage>header>div {
+        width: 357px;
+        left: 332px;
+    }
+
+    #galleryPage>header>div>h3 {
+        font-size: 30px;
+        left: 120px;
+        top: 8px;
+    }
+}
