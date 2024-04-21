@@ -175,6 +175,59 @@ svg {
     }
 }
 
+/* Media Query for max-width 1024px */
+@media (max-width: 1024px) {
+    #educationPage{
+        /*width: 1047px;*/
+        width: auto;
+        height: 100vh;
+    }
+    #educationPage>header>div {
+        width: 377px;
+        left: 333px;
+    }
+
+    #educationPage>header>div>h3 {
+        font-size: 35px;
+        margin-left: -13px;
+        margin-top: 8px;
+    }
+
+    .container01 {
+        width: 600px;
+        left: 220px;
+    }
+
+    .card01 {
+        width: 200px;
+        height: 296px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .bar {
+        top: 90px;
+        left: 10px;
+    }
+
+    .emptybar {
+        width: 80%;
+    }
+
+    .filledbar {
+        width: 90px;
+    }
+
+    .circle {
+        left: calc(50% - 50px);
+    }
+
+    #educationPage>footer>h1 {
+        font-size: 150px;
+    }
+}
 
 
 
