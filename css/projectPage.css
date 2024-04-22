@@ -190,3 +190,50 @@
         margin-left: 746px;
     }
 }
+
+
+/* Media Query for max-width 768px */
+@media (max-width: 768px) {
+    #projectPage>header>h1 {
+        font-size: 120px;
+        left: 282px;
+        top: 53px;
+    }
+
+    #projectPage>aside>div {
+        width: 200px;
+        top: 114px;
+    }
+
+    #projectPage>aside>div>h3 {
+        font-size: 25px;
+        left: 100px;
+    }
+
+    .card1 .title {
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: .1em;
+        left: 5px;
+    }
+
+    .card1 {
+        width: 151px;
+        height: 290px;
+        top: 280px;
+        left: 35px;
+    }
+
+    #card2 {
+        margin-left: 181px;
+    }
+
+    #card3 {
+        margin-left: 365px;
+    }
+
+    #card4 {
+        margin-left: 545px;
+    }
+}
+

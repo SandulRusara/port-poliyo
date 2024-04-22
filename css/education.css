@@ -229,6 +229,60 @@ svg {
     }
 }
 
+/* Media Query for max-width 768px */
+@media (max-width: 768px) {
+    #educationPage{
+        width: 925px;
+        /* width: auto; */
+        height: 1014px;
+    }
+    #educationPage>header>div {
+        width: 400px;
+        left: 193px;
+    }
+
+    #educationPage>header>div>h3 {
+        font-size: 40px;
+        left: 117px;
+    }
+
+    .container01 {
+        width: 575px;
+        top: 353px;
+        left: 120px;
+    }
+
+    .card01 {
+        width: 180px;
+        height: 250px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .bar {
+        top: 90px;
+        left: 10px;
+    }
+
+    .emptybar {
+        width: 80%;
+    }
+
+    .filledbar {
+        width: 90px;
+    }
+
+    .circle {
+        left: calc(50% - 50px);
+    }
+
+    #educationPage>footer>h1 {
+        font-size: 130px;
+    }
+}
+
 
 
 
