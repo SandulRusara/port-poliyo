@@ -169,3 +169,76 @@ textarea {
         right: 364px;
     }
 }
+
+/* Media Query for max-width 1024px */
+@media (max-width: 1024px) {
+    #contactPage>header>h1 {
+        font-size: 160px;
+        left: 400px;
+        top: 25px;
+    }
+
+    #contactPage>aside>div {
+        width: 67px;
+        height: 408px;
+        right: 180px;
+        top: 254px;
+    }
+
+    #linkedin1 {
+        left: 12px;
+        top: 10px;
+    }
+
+    #Whatsapp1 {
+        top: 50px;
+        left: 12px;
+    }
+
+    #Github1 {
+        top: 90px;
+        left: 12px;
+    }
+
+    #Medium1 {
+        top: 130px;
+        left: 12px;
+    }
+
+    #Gmail1 {
+        top: 170px;
+        left: 12px;
+    }
+
+    #contactPage>section>div {
+        width: 300px;
+        height: 50px;
+        top: 120px;
+    }
+
+    #contactPage>section>div>h3 {
+        font-size: 28px;
+        left: 120px;
+        top: 8px;
+    }
+
+    .contact-form {
+        top: 250px;
+        left: 223px;
+        width: 527px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 490px;
+    }
+
+    .contact-form button[type="submit"] {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    #contactPage>footer>h3 {
+        font-size: 20px;
+    }
+}
