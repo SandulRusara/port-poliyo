@@ -239,3 +239,58 @@ span{
         color:orange;
     }
 }
+
+/* Media Query for max-width 768px */
+@media (max-width: 768px) {
+    #homeBackground {
+        height: auto;
+    }
+
+    #homeBackground>video {
+        width: 768px;
+        height: auto;
+    }
+
+    #homePagephotooooo>div {
+        width: 392px;
+        top: 90px;
+        right: 20px;
+    }
+
+    #homeaside>div {
+        width: 65px;
+        height: 489px;
+        left: 30px;
+        top: 151px;
+    }
+
+    #homePage>h2 {
+        font-size: 30px;
+        top: 466px;
+        left: 150px;
+    }
+
+    #homePage>h1 {
+        font-size: 45px;
+        top: 507px;
+        left: 150px;
+    }
+
+    #homePage>h4 {
+        font-size: 25px;
+        top: 564px;
+        left: 150px;
+    }
+
+    #homepageFooter>nav>div {
+        width: 506px;
+        font-size: 15px;
+        top: 705px;
+        left: 126px;
+        padding-left: 22px;
+    }
+
+    #homepageFooter>nav>div>div>a:hover{
+        color: orange;
+    }
+}
