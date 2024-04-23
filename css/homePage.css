@@ -294,3 +294,92 @@ span{
         color: orange;
     }
 }
+
+
+/* Media Query for max-width 425px */
+@media (max-width: 426px) {
+    #homepageFooter>nav>div>i{
+        display: block;
+    }
+
+    #homepageFooter>nav>div>div{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: transparent;
+        padding: 0.5%;
+        transform: scale(0);
+    }
+
+    .toggle-btn.active:before{
+        content: '\f00d';
+    }
+
+    #homepageFooter>nav>div>div>a{
+        display: block;
+        text-align: right;
+        margin: 10px;
+        font-size: 20px;
+        color: white;
+    }
+
+    #homepageFooter>nav>div>div.active{
+        transform: scale(1);
+    }
+
+    #homepageFooter>nav>div.active{
+        width: 150px;
+        right: -140px;
+    }
+
+    #homepageFooter>nav>div{
+        width: 50px;
+        height: 50px;
+        background-color: #959595;
+        position: absolute;
+        top:50px;
+        right: -200px;
+        margin: auto;
+        border-radius: 10px;
+        font-size: 25px;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    #homePage>h1{
+        font-size: 35px;
+        top: 635px;
+        left: 114px;
+    }
+
+    #homePage>h2{
+        top: 597px;
+        left: 114px;
+    }
+
+    #homePage>h4{
+        top: 681px;
+        left: 114px;
+    }
+
+    #homeaside>div{
+        width: 65px;
+        height: 489px;
+        left: 10px;
+        top: 277px;
+    }
+
+    #homePagephotooooo>div{
+        width: 392px;
+        top: 164px;
+        right: 20px;
+    }
+
+    #homepageFooter>nav>div>div>a:hover{
+        color: #ef0;
+    }
+}
