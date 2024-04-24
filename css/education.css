@@ -294,7 +294,16 @@ svg {
         left:66px;
     }
     .container01{
-
+        display: flex;
+        width: 386px;
+        top: 156px;
+        left: 58px;
+        flex-wrap: wrap;
+    }
+    .card01 {
+        margin: 0;
+        width: 180px;
+        height: 250px;
     }
 
 }
