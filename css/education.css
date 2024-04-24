@@ -305,6 +305,16 @@ svg {
         width: 180px;
         height: 250px;
     }
+    .title {
+        font-size: 18px;
+        left: 21px;
+    }
+
+    .bar {
+        top: 90px;
+        left: 10px;
+    }
+
 
 }
 
