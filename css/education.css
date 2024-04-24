@@ -283,6 +283,20 @@ svg {
     }
 }
 
+/* Media Query for max-width 425px */
+@media (max-width: 426px) {
+    #educationPage>header>div{
+        width: 296px;
+        left: 62px;
+    }
+    #educationPage>header>div>h3 {
+        font-size: 40px;
+        left:66px;
+    }
+    .container01{
 
+    }
+
+}
 
 
