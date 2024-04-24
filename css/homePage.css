@@ -1,11 +1,25 @@
 #homeBackground{
     position: relative;
     height: 100vh;
-    background-image: linear-gradient(gray,black);
 }
-#homePagephotooooo>div{
+#homeBackground>video{
+    min-width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+
+}
+/*#hero-overlayer {*/
+/*    background: rgba(35,45,57,0.8);*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*}*/
+#homePagePhoto>div{
     background-image: url("../assets/homePagePhoto.jpg");
-    background-position:top;
+    background-position: top;
     width: 450px;
     aspect-ratio: 1/1;
     border-radius: 100%;
@@ -15,35 +29,36 @@
     margin: auto;
     overflow: hidden;
     animation: card 2s infinite;
-}@keyframes card {
-     0% {
-         transform: translateY(-3px);
-     }
-     50% {
-         transform: translateY(3px);
-     }
-     100% {
-         transform: translateY(-3px);
-     }
- }
-#homeaside>div{
+}
+@keyframes card {
+    0% {
+        transform: translateY(-3px);
+    }
+    50% {
+        transform: translateY(3px);
+    }
+    100% {
+        transform: translateY(-3px);
+    }
+}
+#homePageAside>div{
     width: 67px;
     height: 500px;
-    background-color: black;
+    background-color: #1A1A1A;
     position: absolute;
     left: 130px;
-    top:120px;
+    top: 120px;
     margin: auto;
     border-radius: 10px;
 }
 #Linkedin{
-   position: relative;
+    position: relative;
     left: 12px;
     top: 20px;
     margin: auto;
 }
-#Whatsapp {
-    position: relative;
+#Whatsapp{
+    position:relative;
     top: 70px;
     left: 12px;
     margin: auto;
@@ -69,13 +84,13 @@
 #homePage>h2{
     color: white;
     font-size: 70px;
-    position:absolute;
+    position: absolute;
     left: 250px;
     top: 250px;
     margin: auto;
 }
 #homePage>h1{
-    color:orange ;
+    color: orange;
     font-size: 90px;
     position: absolute;
     left: 250px;
@@ -90,13 +105,11 @@
     top: 420px;
     margin: auto;
 }
-#homepageFooter>nav>div{
+#homePageFooter>nav>div{
     width: 880px;
     height: 50px;
     background-color: #959595;
     position: absolute;
-    /*top: 30px;*/
-    /*right: 90px;*/
     top:650px;
     left: 400px;
     margin: auto;
@@ -107,28 +120,29 @@
     display: flex;
     justify-content: space-around;
 }
-#homepageFooter>nav>div>i{
+#homePageFooter>nav>div>i{
     display: none;
 }
-#homepageFooter>nav>div>div>a{
+#homePageFooter>nav>div>div>a{
     text-decoration: none;
     color: black;
     margin-right: 2px;
 }
-#homepageFooter>nav>div>div>a:hover{
+#homePageFooter>nav>div>div>a:hover{
     color: orange;
 }
-body>section>h4:first-child{
+body>section>h4:first-child {
     font-size: 5em;
     color: white;
     text-transform: uppercase;
     font-family: 'tradegothiclt-bold', sans-serif;
 }
 
-span{
+span {
     border-right: .05em solid;
     animation: caret 1s steps(1) infinite;
 }
+
 @keyframes caret {
     50% {
         border-color: transparent;
@@ -137,7 +151,7 @@ span{
 
 
 
-
+/* Media Query for max-width 1440px */
 @media all and (max-width: 1440px) {
     #homeBackground {
         height: auto;
@@ -183,7 +197,7 @@ span{
     }
 
     #homePageFooter>nav>div>div>a:hover{
-        color:orange;
+        color: orange;
     }
 }
 
@@ -198,13 +212,13 @@ span{
         height: auto;
     }
 
-    #homePagephotooooo>div {
+    #homePagePhoto>div {
         width: 379px;
         top: 40px;
         right: 20px;
     }
 
-    #homeaside>div {
+    #homePageAside>div {
         width: 64px;
         height: 486px;
         left: 92px;
@@ -236,7 +250,7 @@ span{
     }
 
     #homePageFooter>nav>div>div>a:hover{
-        color:orange;
+        color: orange;
     }
 }
 
@@ -251,13 +265,13 @@ span{
         height: auto;
     }
 
-    #homePagephotooooo>div {
+    #homePagePhoto>div {
         width: 392px;
         top: 90px;
         right: 20px;
     }
 
-    #homeaside>div {
+    #homePageAside>div {
         width: 65px;
         height: 489px;
         left: 30px;
@@ -282,7 +296,7 @@ span{
         left: 150px;
     }
 
-    #homepageFooter>nav>div {
+    #homePageFooter>nav>div {
         width: 506px;
         font-size: 15px;
         top: 705px;
@@ -290,19 +304,18 @@ span{
         padding-left: 22px;
     }
 
-    #homepageFooter>nav>div>div>a:hover{
+    #homePageFooter>nav>div>div>a:hover{
         color: orange;
     }
 }
 
-
 /* Media Query for max-width 425px */
 @media (max-width: 426px) {
-    #homepageFooter>nav>div>i{
+    #homePageFooter>nav>div>i{
         display: block;
     }
 
-    #homepageFooter>nav>div>div{
+    #homePageFooter>nav>div>div{
         position: absolute;
         top: 100%;
         left: 0;
@@ -316,7 +329,7 @@ span{
         content: '\f00d';
     }
 
-    #homepageFooter>nav>div>div>a{
+    #homePageFooter>nav>div>div>a{
         display: block;
         text-align: right;
         margin: 10px;
@@ -324,16 +337,16 @@ span{
         color: white;
     }
 
-    #homepageFooter>nav>div>div.active{
+    #homePageFooter>nav>div>div.active{
         transform: scale(1);
     }
 
-    #homepageFooter>nav>div.active{
+    #homePageFooter>nav>div.active{
         width: 150px;
         right: -140px;
     }
 
-    #homepageFooter>nav>div{
+    #homePageFooter>nav>div{
         width: 50px;
         height: 50px;
         background-color: #959595;
@@ -366,20 +379,20 @@ span{
         left: 114px;
     }
 
-    #homeaside>div{
+    #homePageAside>div{
         width: 65px;
         height: 489px;
         left: 10px;
         top: 277px;
     }
 
-    #homePagephotooooo>div{
+    #homePagePhoto>div{
         width: 392px;
         top: 164px;
         right: 20px;
     }
 
-    #homepageFooter>nav>div>div>a:hover{
-        color: #ef0;
+    #homePageFooter>nav>div>div>a:hover{
+        color: orange;
     }
 }
