@@ -314,6 +314,22 @@ svg {
         top: 90px;
         left: 10px;
     }
+    .emptybar {
+        width: 80%;
+    }
+
+    .filledbar {
+        width: 90px;
+    }
+
+    .circle {
+        left: calc(50% - 50px);
+    }
+
+    #educationPage>footer>h1 {
+        font-size: 77px;
+        left: 0;
+    }
 
 
 }
