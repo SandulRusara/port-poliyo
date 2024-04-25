@@ -414,5 +414,15 @@ span {
     .toggle-btn.active:before{
         content: '\f00d';
     }
+    #homePageFooter>nav>div>div>a{
+        display: block;
+        text-align: right;
+        margin: 10px;
+        font-size: 20px;
+        color: white;
+    }
 
+    #homePageFooter>nav>div>div.active{
+        transform: scale(1);
+    }
 }
