@@ -461,4 +461,20 @@ span {
         top: 672px;
         left: 105px;
     }
+    #homePageAside>div{
+        width: 65px;
+        height: 489px;
+        left: 10px;
+        top: 277px;
+    }
+
+    #homePagePhoto>div{
+        width: 355px;
+        top: 154px;
+        right: 9px;
+    }
+
+    #homePageFooter>nav>div>div>a:hover{
+        color: orange;
+    }
 }
