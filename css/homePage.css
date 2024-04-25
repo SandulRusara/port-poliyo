@@ -396,3 +396,10 @@ span {
         color: orange;
     }
 }
+
+/* Media Query for max-width 375px */
+@media (max-width: 376px) {
+    #homePageFooter > nav > div > i {
+        display: block;
+    }
+}
