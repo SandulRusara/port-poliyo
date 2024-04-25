@@ -402,4 +402,13 @@ span {
     #homePageFooter > nav > div > i {
         display: block;
     }
+    #homePageFooter>nav>div>div{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: transparent;
+        padding: 0.5%;
+        transform: scale(0);
+    }
 }
