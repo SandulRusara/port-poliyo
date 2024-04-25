@@ -411,4 +411,8 @@ span {
         padding: 0.5%;
         transform: scale(0);
     }
+    .toggle-btn.active:before{
+        content: '\f00d';
+    }
+
 }
