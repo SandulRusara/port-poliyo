@@ -380,16 +380,16 @@ span {
     }
 
     #homePageAside>div{
-        width: 65px;
-        height: 489px;
+        width: 70px;
+        height: 480px;
         left: 10px;
-        top: 277px;
+        top: 477px;
     }
 
     #homePagePhoto>div{
         width: 392px;
-        top: 164px;
-        right: 20px;
+        top: 120px;
+        right: 10px;
     }
 
     #homePageFooter>nav>div>div>a:hover{
