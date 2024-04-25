@@ -457,3 +457,61 @@
         font-size: 110px;
     }
 }
+
+/* Media Query for max-width 425px */
+@media (max-width: 426px) {
+    #assignmentPage>header>div {
+        width: 250px;
+        left: 89px;
+    }
+
+    #assignmentPage>header>div>h3 {
+        font-size: 24px;
+        left: 55px;
+        top: 12px;
+    }
+
+    #assignmentPage>footer>h1 {
+        font-size: 65px;
+        left: 6px;
+    }
+    .gitass{
+        left: 20px;
+    }
+    #flipCard1{
+        left: -123px;
+    }
+    #flipCard2{
+        left: -155px;
+    }
+    #flipCard3{
+        left: -186px;
+    }
+    #flipCard4{
+        left: -222px;
+    }
+    #flipCard5{
+        left: -123px;
+    }
+    #flipCard6{
+        left: -155px;
+    }
+    #flipCard7{
+        left: -186px;
+    }
+    #flipCard8{
+        left: -222px;
+    }
+    #flipCard9{
+        left: -123px;
+    }
+    #flipCard10{
+        left: -155px;
+    }
+    #flipCard11{
+        left: -186px;
+    }
+    #flipCard12{
+        left: -222px;
+    }
+}
