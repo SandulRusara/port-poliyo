@@ -343,3 +343,55 @@
         bottom: 180px;
     }
 }
+
+/* Media Query for max-width 375px */
+@media (max-width: 376px) {
+    #aboutpage > header > h1 {
+        font-size: 70px;
+        left: 139px;
+        top: 22px;
+    }
+
+    #aboutpage > aside > div {
+        width: 119px;
+        top: 46px;
+    }
+
+    #aboutpage > aside > div > h3 {
+        font-size: 20px;
+        left: 13px;
+        top: 15px;
+    }
+
+    #aboutpage > figure {
+        width: 328px;
+        top: 129px;
+        left: 24px;
+        height: 346px;
+        overflow: hidden;
+    }
+
+    #aboutpage > main > div {
+        width: 350px;
+        height: 400px;
+        top: 484px;
+        left: 20px;
+    }
+
+    #aboutpage > main > div > p {
+        font-size: 15px;
+    }
+
+    #aboutpage > section > div {
+        width: 100px;
+        bottom: 50px;
+    }
+
+    #aboutpage > section > .button-86 {
+        width: 79px;
+        height: 15px;
+        font-size: 15px;
+        left: 119px;
+        bottom: 150px;
+    }
+}
