@@ -495,3 +495,31 @@ input.slider-target {
         font-size: 110px;
     }
 }
+/* Media Query for max-width 375px */
+@media (max-width: 376px) {
+    #galleryPage>header>div {
+        width: 278px;
+        left: 55px;
+    }
+
+    #galleryPage>header>div>h3 {
+        font-size: 30px;
+        left: 83px;
+        top: 8px;
+    }
+
+    .card-title{
+        font-size: 12px;
+    }
+    .card-tag-list-item{
+        bottom: 0;
+        font-size: 8px;
+    }
+    .card-meta{
+        font-size: 10px;
+    }
+
+    #galleryPage>footer>h1{
+        font-size: 90px;
+    }
+}
