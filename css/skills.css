@@ -285,3 +285,58 @@
     }
 }
 
+/* Media Query for max-width 375px */
+@media (max-width: 376px) {
+    #skillPage>header>h1 {
+        font-size: 70px;
+        left: 187px;
+        top: 20px;
+    }
+
+    #skillPage>aside>div {
+        width: 200px;
+        top: 100px;
+    }
+
+    #skillPage>aside>div>h3 {
+        font-size: 25px;
+        left: 123px;
+    }
+
+    #fullSkillTags {
+        top: 20px;
+        left: -89px;
+    }
+
+    #firstSkill {
+        left: 123px;
+        top: 427px;
+    }
+
+    #secondSkill {
+        left: 301px;
+        top: 439px;
+    }
+
+    #thirdSkill {
+        left: 123px;
+        top: 624px;
+    }
+
+    #fourthSkill {
+        left: 301px;
+        top: 632px;
+    }
+
+    #fifthSkill {
+        left:123px;
+        top: 239px;
+    }
+
+    #sixthSkill {
+        left: 301px;
+        top: 239px;
+    }
+}
+
+
