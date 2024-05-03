@@ -283,7 +283,7 @@
 
     #projectPage>aside>div {
         width: 151px;
-        top: 100px;
+        top: 70px;
     }
 
     #projectPage>aside>div>h3 {
@@ -304,8 +304,8 @@
     .card1 {
         width: 151px;
         height: 290px;
-        top: 198px;
-        left: 27px;
+        top: 160px;
+        left: 18px;
     }
 }
 

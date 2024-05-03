@@ -348,7 +348,7 @@ svg {
     .container01 {
         display: flex;
         width: 350px;
-        top: 156px;
+        top: 120px;
         left: 58px;
         flex-wrap: wrap;
     }
@@ -368,10 +368,11 @@ svg {
     .title {
         font-size: 18px;
         left: 21px;
+
     }
 
     .bar {
-        top: 90px;
+        top: 50px;
         left: 10px;
     }
 
