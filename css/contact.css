@@ -363,8 +363,8 @@ textarea {
 /* Media Query for max-width 375px */
 @media (max-width: 376px) {
     #contactPage>header>h1 {
-        font-size: 80px;
-        left: 68px;
+        font-size: 60px;
+        left: 120px;
         top: 41px;
     }
 
@@ -383,8 +383,8 @@ textarea {
     #contactPage>aside>div {
         width: 60px;
         height: 399px;
-        right: 303px;
-        top: 250px;
+        right: 6px;
+        top: 260px;
     }
 
     #contactPage>footer>h3 {
@@ -393,7 +393,7 @@ textarea {
 
     .contact-form {
         top: 250px;
-        left: 81px;
+        left: 2px;
         width: 285px;
     }
 
