@@ -243,6 +243,8 @@ textarea {
     }
 }
 
+
+
 /* Media Query for max-width 768px */
 @media (max-width: 768px) {
     #contactPage>header>h1 {
@@ -403,5 +405,11 @@ textarea {
 }
 
 
-
+/*@media all and (max-width: 320px ){}
+@media all and (min-width: 321px ) and (max-width: 460px){}
+@media all and (min-width: 461px ) and (max-width: 768px){}
+@media all and (min-width: 769px ) and (max-width: 834px){}
+@media all and (min-width: 835px ) and (max-width: 1024px){}
+@media all and (min-width: 1025px ) and (max-width: 1440px){}
+@media all and  (min-width: 1440px){}*/
 

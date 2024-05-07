@@ -311,10 +311,93 @@ span {
 
 /* Media Query for max-width 425px */
 @media (max-width: 426px) {
-    #homePageFooter>nav>div>i{
+    /*#homePageFooter>nav>div>i{*/
+    /*    display: block;*/
+    /*}*/
+
+    /*#homePageFooter>nav>div>div{*/
+    /*    position: absolute;*/
+    /*    top: 100%;*/
+    /*    left: 0;*/
+    /*    width: 100%;*/
+    /*    background-color: transparent;*/
+    /*    padding: 0.5%;*/
+    /*    transform: scale(0);*/
+    /*}*/
+
+    /*.toggle-btn.active:before{*/
+    /*    content: '\f00d';*/
+    /*}*/
+
+    /*#homePageFooter>nav>div>div>a{*/
+    /*    display: block;*/
+    /*    text-align: right;*/
+    /*    margin: 10px;*/
+    /*    font-size: 20px;*/
+    /*    color: white;*/
+    /*}*/
+
+    /*#homePageFooter>nav>div>div.active{*/
+    /*    transform: scale(1);*/
+    /*}*/
+
+    /*#homePageFooter>nav>div.active{*/
+    /*    width: 150px;*/
+    /*    right: -140px;*/
+    /*}*/
+
+    /*#homePageFooter>nav>div{*/
+    /*    width: 50px;*/
+    /*    height: 50px;*/
+    /*    background-color: #959595;*/
+    /*    position: absolute;*/
+    /*    top:50px;*/
+    /*    right: -200px;*/
+    /*    margin: auto;*/
+    /*    border-radius: 10px;*/
+    /*    font-size: 25px;*/
+    /*    color: black;*/
+    /*    display: flex;*/
+    /*    align-items: center;*/
+    /*    justify-content: center;*/
+    /*    padding: 0;*/
+    /*}*/
+
+    /*#homePage>h1{*/
+    /*    font-size: 35px;*/
+    /*    top: 635px;*/
+    /*    left: 114px;*/
+    /*}*/
+
+    /*#homePage>h2{*/
+    /*    top: 597px;*/
+    /*    left: 114px;*/
+    /*}*/
+
+    /*#homePage>h4{*/
+    /*    top: 681px;*/
+    /*    left: 114px;*/
+    /*}*/
+
+    /*#homePageAside>div{*/
+    /*    width: 70px;*/
+    /*    height: 480px;*/
+    /*    left: 10px;*/
+    /*    top: 477px;*/
+    /*}*/
+
+    /*#homePagePhoto>div{*/
+    /*    width: 392px;*/
+    /*    top: 120px;*/
+    /*    right: 10px;*/
+    /*}*/
+
+    /*#homePageFooter>nav>div>div>a:hover{*/
+    /*    color: orange;*/
+    /*}*/
+    #homePageFooter > nav > div > i {
         display: block;
     }
-
     #homePageFooter>nav>div>div{
         position: absolute;
         top: 100%;
@@ -324,11 +407,9 @@ span {
         padding: 0.5%;
         transform: scale(0);
     }
-
     .toggle-btn.active:before{
         content: '\f00d';
     }
-
     #homePageFooter>nav>div>div>a{
         display: block;
         text-align: right;
@@ -340,10 +421,9 @@ span {
     #homePageFooter>nav>div>div.active{
         transform: scale(1);
     }
-
     #homePageFooter>nav>div.active{
         width: 150px;
-        right: -140px;
+        right: -93px;
     }
 
     #homePageFooter>nav>div{
@@ -352,7 +432,7 @@ span {
         background-color: #959595;
         position: absolute;
         top:50px;
-        right: -200px;
+        right: -169px;
         margin: auto;
         border-radius: 10px;
         font-size: 25px;
@@ -362,38 +442,68 @@ span {
         justify-content: center;
         padding: 0;
     }
-
     #homePage>h1{
-        font-size: 35px;
-        top: 635px;
-        left: 114px;
+        font-size: 30px;
+        top: 543px;
+        left: 90px;
     }
 
     #homePage>h2{
-        top: 597px;
-        left: 114px;
+        top: 500px;
+        left: 90px;
     }
 
     #homePage>h4{
-        top: 681px;
-        left: 114px;
+        top: 589px;
+        left: 90px;
     }
-
     #homePageAside>div{
-        width: 70px;
-        height: 480px;
-        left: 10px;
-        top: 477px;
+        width: 340px;
+        height: 50px;
+        left: 30px;
+        top: 640px;
+
     }
 
     #homePagePhoto>div{
-        width: 392px;
-        top: 120px;
-        right: 10px;
+        width: 355px;
+        top: 100px;
+        right: 25px;
+        background-position:top;
     }
 
     #homePageFooter>nav>div>div>a:hover{
         color: orange;
+    }
+    #Linkedin{
+        position: relative;
+        left: 15px;
+        top: 5px;
+        margin: auto;
+    }
+    #Whatsapp{
+        position: relative;
+        left: 80px;
+        top: -40px;
+        margin: auto;
+    }
+    #Github{
+        position: relative;
+        left: 150px;
+        top: -85px;
+        margin: auto;
+    }
+    #Medium{
+        position: relative;
+        left: 220px;
+        top: -130px;
+        margin: auto;
+    }
+    #Gmail{
+        position: relative;
+        left: 280px;
+        top: -178px;
+        margin: auto;
     }
 }
 
@@ -448,34 +558,66 @@ span {
     }
     #homePage>h1{
         font-size: 30px;
-        top: 633px;
-        left: 106px;
+        top: 543px;
+        left: 65px;
     }
 
     #homePage>h2{
-        top: 585px;
-        left: 105px;
+        top: 500px;
+        left: 65px;
     }
 
     #homePage>h4{
-        top: 672px;
-        left: 105px;
+        top: 589px;
+        left: 65px;
     }
     #homePageAside>div{
-        width: 65px;
-        height: 489px;
+        width: 340px;
+        height: 50px;
         left: 10px;
-        top: 277px;
+        top: 650px;
+
     }
 
     #homePagePhoto>div{
         width: 355px;
-        top: 154px;
-        right: 9px;
+        top: 100px;
+        right: 2px;
+        background-position:top;
     }
 
     #homePageFooter>nav>div>div>a:hover{
         color: orange;
+    }
+    #Linkedin{
+        position: relative;
+        left: 15px;
+        top: 5px;
+        margin: auto;
+    }
+    #Whatsapp{
+        position: relative;
+        left: 80px;
+        top: -40px;
+        margin: auto;
+    }
+    #Github{
+        position: relative;
+        left: 150px;
+        top: -85px;
+        margin: auto;
+    }
+    #Medium{
+        position: relative;
+        left: 220px;
+        top: -130px;
+        margin: auto;
+    }
+    #Gmail{
+        position: relative;
+        left: 280px;
+        top: -178px;
+        margin: auto;
     }
 
 }
