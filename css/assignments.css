@@ -163,7 +163,7 @@
 /*    margin: auto;*/
 /*}*/
 
-@media (max-width: 1440px) {
+@media all and (max-width: 1440px) {
     #assignmentPage>header>div {
         width: 450px;
         left: 479px;
@@ -258,7 +258,7 @@
 }
 
 /* Media Query for max-width 1024px */
-@media (max-width: 1024px) {
+@media all and (max-width: 1024px) {
     #assignmentPage>header>div {
         width: 350px;
         left: 315px;
@@ -358,7 +358,7 @@
 
 
 /* Media Query for max-width 768px */
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
     #assignmentPage>header>div {
         width: 250px;
         left: 235px;
@@ -459,7 +459,7 @@
 }
 
 /* Media Query for max-width 425px */
-@media (max-width: 426px) {
+@media all and (max-width: 425px) {
     #assignmentPage>header>div {
         width: 250px;
         left: 89px;
@@ -517,7 +517,7 @@
 }
 
 /* Media Query for max-width 375px */
-@media (max-width: 376px) {
+@media all and (max-width: 375px) {
     #assignmentPage>header>div {
         width: 250px;
         left: 57px;

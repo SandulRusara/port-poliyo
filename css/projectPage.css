@@ -109,7 +109,7 @@
 }
 
 /* Media Query for max-width 1440px */
-@media (max-width: 1440px) {
+@media all and (max-width: 1440px) {
     #projectPage > header > h1 {
         font-size: 180px;
         left: 707px;
@@ -148,7 +148,7 @@
 }
 
 /* Media Query for max-width 1024px */
-@media (max-width: 1024px) {
+@media all and (max-width: 1024px) {
     #projectPage>header>h1 {
         font-size: 160px;
         left: 385px;
@@ -193,7 +193,7 @@
 
 
 /* Media Query for max-width 768px */
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
     #projectPage>header>h1 {
         font-size: 120px;
         left: 282px;
@@ -238,7 +238,7 @@
 }
 
 /* Media Query for max-width 425px */
-@media (max-width: 426px){
+@media all and (max-width: 425px){
     #projectPage>header>h1 {
         font-size: 70px;
         left: 148px;
@@ -274,7 +274,7 @@
 }
 
 /* Media Query for max-width 375px */
-@media (max-width: 376px){
+@media all and (max-width: 375px){
     #projectPage>header>h1 {
         font-size: 65px;
         left: 114px;

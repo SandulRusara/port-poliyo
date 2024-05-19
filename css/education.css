@@ -126,7 +126,7 @@ svg {
 }
 
 
-@media (max-width: 1440px) {
+@media all and (max-width: 1440px) {
     #educationPage>header>div {
         width: 450px;
         height: 60px;
@@ -176,7 +176,7 @@ svg {
 }
 
 /* Media Query for max-width 1024px */
-@media (max-width: 1024px) {
+@media all and (max-width: 1024px) {
     #educationPage{
         /*width: 1047px;*/
         width: auto;
@@ -230,7 +230,7 @@ svg {
 }
 
 /* Media Query for max-width 768px */
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
     #educationPage{
         width: 925px;
         /* width: auto; */
@@ -284,7 +284,7 @@ svg {
 }
 
 /* Media Query for max-width 425px */
-@media (max-width: 426px) {
+@media all and (max-width: 425px) {
     #educationPage>header>div{
         width: 296px;
         left: 62px;
@@ -334,7 +334,7 @@ svg {
 
 }
 /* Media Query for max-width 375px */
-@media (max-width: 376px) {
+@media all and (max-width: 375px) {
     #educationPage>header>div {
         width: 244px;
         left: 62px;
