@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case 03</title>
+    <link rel="stylesheet" href="../assets/style.css">
+    <style>
+        #frame{
+            width: 200px;
+            aspect-ratio: 1/1;
+            border: 10px solid grey;
+            border-radius: 100%;
+
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            top: 0;
+            margin: auto;
+            z-index: 9999;
+
+        }
+
+        #frame>div{
+            width: calc(100% - 20px);
+            aspect-ratio: 1/1;
+            border: 10px solid red;
+            border-radius: 100%;
+
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            top: 0;
+            margin: auto;
+
+        }
+
+        section{
+            position: absolute;
+            width: fit-content;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        section>div{
+            width: 200px;
+            aspect-ratio: 1/1;
+            background-color: orange;
+            border-radius: 100%;
+
+            margin: 310.4px 0px;
+
+        }
+
+        section>div:nth-child(1){
+            background-color:deeppink;
+        }
+
+        section>div:nth-child(2){
+            background-color:blue;
+        }
+
+        section>div:nth-child(3){
+            background-color: orange;
+        }
+        section>div:nth-child(1)>span{
+            width: fit-content;
+            height: fit-content;
+            color: white;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        section>div:nth-child(1)>span{
+            width: fit-content;
+            height: fit-content;
+            color: white;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+
+<div id="frame">
+    <div></div>
+</div>
+
+<section>
+    <div>
+        <span>Hello</span>
+    </div>
+    <div>
+        <span></span>
+    </div>
+    <div></div>
+</section>
+
+</body>
+</html>
