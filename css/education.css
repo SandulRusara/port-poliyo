@@ -134,6 +134,8 @@ svg {
     bottom: 10px;
     margin: auto;
 }
+
+/*//////////////////////////////////*/
 @media all and (max-width: 1440px) {
     #educationPage>header>div {
         width: 450px;
@@ -402,6 +404,66 @@ svg {
     }
 }
 
+/*////////////////////////////////////////////////////////*/
 
+@media all and (max-width: 320px) {
+    #educationPage>header>div {
+        width: 220px;
+        left: 42px;
+    }
+
+    #educationPage>header>div>h3 {
+        font-size: 32px;
+        left: 50px;
+    }
+
+    .container01 {
+        display: flex;
+        width: 350px;
+        top: 120px;
+        left: 58px;
+        flex-wrap: wrap;
+    }
+
+    .card01 {
+        margin: 0;
+        width: 168px;
+        height: 250px;
+    }
+
+    .card01:hover ~ .card01 {
+        position: relative;
+        left: 21px;
+        transition: 0.4s ease-out;
+    }
+
+    .title {
+        font-size: 18px;
+        left: 21px;
+
+    }
+
+    .bar {
+        top: 50px;
+        left: 10px;
+    }
+
+    .emptybar {
+        width: 80%;
+    }
+
+    .filledbar {
+        width: 90px;
+    }
+
+    .circle {
+        left: calc(50% - 50px);
+    }
+
+    #educationPage>footer>h1 {
+        font-size: 55px;
+        left: 0;
+    }
+}
 
 
