@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View Order Details</title>
+    <link rel="stylesheet" href="../assets/css/viewOrderDetails.css">
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link rel="stylesheet" href="../assets/bootstrap-5.3.1-dist/css/bootstrap.min.css">
+</head>
+<body>
+<main>
+    <section>
+        <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+            <div id="container-fluid" class="container-fluid">
+                <h2>POS System</h2>
+                <!--<a class="navbar-brand" href="#">Navbar</a>-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div id="navbar-nav" class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="index1.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index2.html">Customer</a>
+                        <a class="nav-link active" aria-current="page" href="index3.html">Item</a>
+                        <a class="nav-link active" aria-current="page" href="index4.html">Order</a>
+                        <a class="nav-link active" aria-current="page" href="index5.html">
+                            <button>View Order Details</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <h1>Order Details</h1>
+    <section id="viewOrderTable">
+        <table class="table" id="table">
+            <thead id="table_head" class="table-light">
+            <tr>
+                <th scope="col">Order Id</th>
+                <th scope="col">Order Date</th>
+                <th scope="col">Item Code</th>
+                <th scope="col">Customer Id</th>
+                <th scope="col">Qty</th>
+                <th scope="col">Price</th>
+                <th scope="col">Discount</th>
+                <th scope="col">Sub Total</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </section>
+</main>
+</body>
+</html>

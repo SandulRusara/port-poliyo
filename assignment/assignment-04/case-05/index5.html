@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>case-05</title>
+    <link href="assets/normilize_css" rel="stylesheet">
+
+    <style>
+        body{
+            overflow: hidden;
+        }
+
+        #main{
+            width: 50vw;
+            height: 50vh;
+            border: 3px solid red;
+
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+
+            overflow: hidden;
+        }
+
+        section{
+            width: 200vw;
+            height: 200vh;
+            display: flex;
+
+            animation-name: slider;
+            animation-duration: 3s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+
+
+        }
+
+        main>section>div{
+            width: 50vw;
+            height: 50vh;
+            background-color: #ff253a;
+
+
+        }
+
+        main>section>div:first-child{
+            background-image: url("../assets/wheel.png");
+            background-position: center;
+
+        }
+
+        main>section>div:nth-child(2){
+            background-image: url("../assets/car.png");
+            background-position: center;
+
+        }
+
+        main>section>div:nth-child(3){
+            background-image: url("../assets/city.png");
+            background-position: center;
+
+        }
+        main>section>div:nth-child(4){
+            background-image: url("../assets/sky.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+
+        }
+
+
+        @keyframes slider {
+            0% ,20%  {
+                transform: translateX(0%);
+            }
+            25% ,45%  {
+                transform: translateX(-25%);
+            }
+            50% ,70% {
+                transform: translateX(-50%);
+            }
+            75% ,100% {
+                transform: translateX(-75%);
+            }
+
+        }
+    </style>
+</head>
+<body>
+<main id="main">
+
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+
+</main>
+</body>
+</html>

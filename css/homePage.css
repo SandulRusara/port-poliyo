@@ -597,9 +597,9 @@ span {
     }
 
     #homePagePhoto>div{
-        width: 355px;
+        width: 330px;
         top: 100px;
-        right: 2px;
+        right: 13px;
         background-position:top;
     }
 
@@ -638,116 +638,118 @@ span {
     }
 
 }
+/*/////////////////////////////////////////////*/
+@media all and (max-width: 320px) {
+    #homePageFooter > nav > div > i {
+        display: block;
+    }
+    #homePageFooter>nav>div>div{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: transparent;
+        padding: 0.5%;
+        transform: scale(0);
+    }
+    .toggle-btn.active:before{
+        content: '\f00d';
+    }
+    #homePageFooter>nav>div>div>a{
+        display: block;
+        text-align: right;
+        margin: 10px;
+        font-size: 1px;
+        color: white;
+    }
 
-/*@media (max-width: 321px) {*/
-/*    #homePageFooter > nav > div > i {*/
-/*        display: block;*/
-/*    }*/
-/*    #homePageFooter>nav>div>div{*/
-/*        position: absolute;*/
-/*        top: 100%;*/
-/*        left: 0;*/
-/*        width: 100%;*/
-/*        background-color: transparent;*/
-/*        padding: 0.5%;*/
-/*        transform: scale(0);*/
-/*    }*/
-/*    .toggle-btn.active:before{*/
-/*        content: '\f00d';*/
-/*    }*/
-/*    #homePageFooter>nav>div>div>a{*/
-/*        display: block;*/
-/*        text-align: right;*/
-/*        margin: 10px;*/
-/*        font-size: 20px;*/
-/*        color: white;*/
-/*    }*/
+    #homePageFooter>nav>div>div.active{
+        transform: scale(1);
+    }
+    #homePageFooter>nav>div.active{
+        width: 150px;
+        right: -93px;
+    }
 
-/*    #homePageFooter>nav>div>div.active{*/
-/*        transform: scale(1);*/
-/*    }*/
-/*    #homePageFooter>nav>div.active{*/
-/*        width: 150px;*/
-/*        right: -93px;*/
-/*    }*/
+    #homePageFooter>nav>div{
+        width: 50px;
+        height: 50px;
+        background-color: #959595;
+        position: absolute;
+        top:50px;
+        right: -100px;
+        margin: auto;
+        border-radius: 10px;
+        font-size: 25px;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    #homePage>h1{
+        font-size: 25px;
+        top: 520px;
+        left: 60px;
+    }
 
-/*    #homePageFooter>nav>div{*/
-/*        width: 50px;*/
-/*        height: 50px;*/
-/*        background-color: #959595;*/
-/*        position: absolute;*/
-/*        top:50px;*/
-/*        right: -169px;*/
-/*        margin: auto;*/
-/*        border-radius: 10px;*/
-/*        font-size: 25px;*/
-/*        color: black;*/
-/*        display: flex;*/
-/*        align-items: center;*/
-/*        justify-content: center;*/
-/*        padding: 0;*/
-/*    }*/
-/*    #homePage>h1{*/
-/*        font-size: 30px;*/
-/*        top: 543px;*/
-/*        left: 65px;*/
-/*    }*/
+    #homePage>h2{
+        top: 460px;
+        left: 60px;
+        font-size: 25px;
+    }
 
-/*    #homePage>h2{*/
-/*        top: 500px;*/
-/*        left: 65px;*/
-/*    }*/
+    #homePage>h4{
+        top: 589px;
+        left: 60px;
+        font-size: 23px;
+    }
+    #homePageAside>div{
+        width: 290px;
+        height: 50px;
+        left: 7px;
+        top: 650px;
 
-/*    #homePage>h4{*/
-/*        top: 589px;*/
-/*        left: 65px;*/
-/*    }*/
-/*    #homePageAside>div{*/
-/*        width: 340px;*/
-/*        height: 50px;*/
-/*        left: 10px;*/
-/*        top: 650px;*/
+    }
 
-/*    }*/
+    #homePagePhoto>div{
+        width: 270px;
+        top: 100px;
+        right: 15px;
+        /*background-position:center top -2px;*/
+    }
 
-/*    #homePagePhoto>div{*/
-/*        width: 290px;*/
-/*        top: 100px;*/
-/*        right: 2px;*/
-/*        !*background-position:center top -2px;*!*/
-/*    }*/
-
-/*    #homePageFooter>nav>div>div>a:hover{*/
-/*        color: white;*/
-/*    }*/
-/*    #Linkedin{*/
-/*        position: relative;*/
-/*        left: 15px;*/
-/*        top: 5px;*/
-/*        margin: auto;*/
-/*    }*/
-/*    #Whatsapp{*/
-/*        position: relative;*/
-/*        left: 80px;*/
-/*        top: -40px;*/
-/*        margin: auto;*/
-/*    }*/
-/*    #Github{*/
-/*        position: relative;*/
-/*        left: 150px;*/
-/*        top: -85px;*/
-/*        margin: auto;*/
-/*    }*/
-/*    #Medium{*/
-/*        position: relative;*/
-/*        left: 220px;*/
-/*        top: -130px;*/
-/*        margin: auto;*/
-/*    }*/
-/*    #Gmail{*/
-/*        position: relative;*/
-/*        left: 280px;*/
-/*        top: -178px;*/
-/*        margin: auto;*/
-/*    }*/
-/*}*/
+    #homePageFooter>nav>div>div>a:hover{
+        color: white;
+    }
+    #Linkedin{
+        position: relative;
+        left: 15px;
+        top: 5px;
+        margin: auto;
+    }
+    #Whatsapp{
+        position: relative;
+        left: 70px;
+        top: -40px;
+        margin: auto;
+    }
+    #Github{
+        position: relative;
+        left: 120px;
+        top: -85px;
+        margin: auto;
+    }
+    #Medium{
+        position: relative;
+        left: 170px;
+        top: -130px;
+        margin: auto;
+    }
+    #Gmail{
+        position: relative;
+        left: 230px;
+        top: -178px;
+        margin: auto;
+    }
+}

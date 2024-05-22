@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>case-03</title>
+    <style>
+        :root{
+            --width: 100px;
+            --height: 100px;
+        }
+        section>div{
+            width: var(--width);
+            height: var(--height);
+            width: 200px;
+            height: 150px;
+            background-color: red;
+            border-radius: 40px;
+            animation-name:animi;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+
+        }
+        @keyframes animi {
+            0%{
+                margin-left: 0;
+                margin-top: 0;
+                transform: rotate(60deg);
+            }
+            25%{
+                margin-left: calc(100vw - 100px);
+                margin-top: 0;
+                transform: rotate(180deg);
+            }
+            50%{
+                margin-left: calc(100vw - 100px);
+                margin-top: calc(100vh - 50px);
+                background-color: black;
+                transform: rotate(0deg);
+            }
+            75% {
+                margin-left: 0;
+                margin-top: calc(100vh - 50px);
+                background-color: chartreuse;
+                transform: rotate(-180deg);
+            }
+            100%{
+                margin-left: 0;
+                margin-bottom: calc(50vh - 50px);
+                background-color: dodgerblue;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<section>
+    <div></div>
+</section>
+</body>
+</html>

@@ -153,15 +153,15 @@
     margin-top: 340px;
 }
 
-/*#assignmentPage>footer>h1{*/
-/*    position: absolute;*/
-/*    color: black;*/
-/*    opacity: 35%;*/
-/*    font-size: 180px;*/
-/*    left: 20px;*/
-/*    bottom: 10px;*/
-/*    margin: auto;*/
-/*}*/
+#assignmentPage>footer>h1{
+    position: absolute;
+    color: grey;
+    opacity: 35%;
+    font-size: 180px;
+    left: 20px;
+    bottom: 10px;
+    margin: auto;
+}
 
 @media all and (max-width: 1440px) {
     #assignmentPage>header>div {
