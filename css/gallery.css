@@ -523,3 +523,16 @@ input.slider-target {
         font-size: 90px;
     }
 }
+/*////////////////////////////////////////////////*/
+@media all and (max-width: 320px) {
+    #galleryPage>header>div {
+        width: 200px;
+        left: 50px;
+    }
+
+    #galleryPage>header>div>h3 {
+        font-size: 25px;
+        left: 55px;
+        top: 8px;
+    }
+}

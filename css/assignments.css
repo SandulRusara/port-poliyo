@@ -530,7 +530,7 @@
     }
 
     #assignmentPage>footer>h1 {
-        font-size: 64px;
+        font-size: 50px;
         left: 6px;
     }
     .gitass{
@@ -598,10 +598,10 @@
         left: -123px;
     }
     #flipCard2{
-        left: -169px;
+        left: -155px;
     }
     #flipCard3{
-        left: -220px;
+        left: -200px;
     }
     #flipCard4{
         left: -545px;
@@ -616,26 +616,29 @@
        top: -35px;
     }
     #flipCard7{
-        left: -220px;
-        top: 500px;
+        left: -400px;
+        top: 173px;
 
     }
     #flipCard8{
-        left: -270px;
-        top: 400px;
+        left: -443px;
+        top: 173px;
     }
     #flipCard9{
-        left: -123px;
+        left: 77px;
+        top: -60px;
     }
     #flipCard10{
-        left: -169px;
+        left: -260px;
+        top: 130px;
     }
     #flipCard11{
-        left: -220px;
+        left: -300px;
+        top: 130px;
     }
     #flipCard12{
-        left: -270px;
-        top: 200px;
+        left: -345px;
+        top: 130px;
     }
 }
 
