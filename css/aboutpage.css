@@ -24,7 +24,8 @@
 }
 #aboutpage>aside>div>h3{
     font-size: 30px;
-    color: orange;
+    /*color:#FF9D00;*/
+    color:darkorange;
     position: absolute;
     left: 150px;
     top: 8px;

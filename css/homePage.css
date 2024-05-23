@@ -107,7 +107,7 @@
     margin: auto;
 }
 #homePage>h1{
-    color: orange;
+    color:darkorange;
     font-size: 90px;
     position: absolute;
     left: 250px;
@@ -146,7 +146,7 @@
     margin-right: 2px;
 }
 #homePageFooter>nav>div>div>a:hover{
-    color: orange;
+    color: darkorange;
 }
 body>section>h4:first-child {
     font-size: 5em;
