@@ -80,14 +80,14 @@
     top: 680px;
     left: 520px;
 }
-#container{
-    background-color: black;
-    width: 1px;
-    height: 600px;
-    position: absolute;
-    top: 120px;
-    right: 800px;
-}
+/*#container{*/
+/*    background-color: black;*/
+/*    width: 1px;*/
+/*    height: 600px;*/
+/*    position: absolute;*/
+/*    top: 120px;*/
+/*    right: 800px;*/
+/*}*/
 #selectItem>h1{
     font-size: 45px;
     position: absolute;

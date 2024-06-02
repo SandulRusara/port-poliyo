@@ -255,23 +255,23 @@
     }
 
     #firstSkill {
-        left: 85px;
+        left: 130px;
         top: 258px;
     }
 
     #secondSkill {
-        left: 113px;
-        top: 550px;
+        left: 130px;
+        top: 510px;
     }
 
     #thirdSkill {
-        left: 350px;
-        top: 560px;
+        left: 330px;
+        top: 520px;
     }
 
     #fourthSkill {
-        left: 350px;
-        top: 245px;
+        left: 325px;
+        top: 260px;
     }
 
     #fifthSkill {
@@ -314,8 +314,8 @@
     }
 
     #secondSkill {
-        left: 301px;
-        top: 439px;
+        left: 270px;
+        top: 420px;
     }
 
     #thirdSkill {
@@ -324,7 +324,7 @@
     }
 
     #fourthSkill {
-        left: 301px;
+        left: 280px;
         top: 632px;
     }
 
@@ -334,7 +334,7 @@
     }
 
     #sixthSkill {
-        left: 301px;
+        left: 280px;
         top: 239px;
     }
 }

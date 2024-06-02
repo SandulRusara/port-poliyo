@@ -472,47 +472,57 @@
     }
 
     #assignmentPage>footer>h1 {
-        font-size: 65px;
+        font-size: 50px;
         left: 6px;
+        bottom: 30px;
     }
     .gitass{
         left: 20px;
     }
     #flipCard1{
-        left: -123px;
+        left: -110px;
+
     }
     #flipCard2{
         left: -155px;
     }
     #flipCard3{
-        left: -186px;
+        left: -205px;
     }
     #flipCard4{
-        left: -222px;
+        left: -255px;
     }
     #flipCard5{
-        left: -123px;
+        left: -110px;
+        top: -20px;
     }
     #flipCard6{
         left: -155px;
+        top: -20px;
     }
     #flipCard7{
-        left: -186px;
+        left: -205px;
+        top: -20px;
     }
     #flipCard8{
-        left: -222px;
+        left: -255px;
+        top: -20px;
     }
     #flipCard9{
-        left: -123px;
+        left: -110px;
+        top: -50px;
     }
     #flipCard10{
         left: -155px;
+        top: -50px;
     }
     #flipCard11{
-        left: -186px;
+        left: -205px;
+        top: -50px;
     }
     #flipCard12{
-        left: -222px;
+        left: -255px;
+        top: -50px;
     }
 }
 
@@ -530,47 +540,47 @@
     }
 
     #assignmentPage>footer>h1 {
-        font-size: 50px;
+        font-size: 40px;
         left: 6px;
     }
     .gitass{
         left: 20px;
     }
     #flipCard1{
-        left: -123px;
+        left: -128px;
     }
     #flipCard2{
-        left: -169px;
+        left: -177px;
     }
     #flipCard3{
-        left: -220px;
+        left: -229px;
     }
     #flipCard4{
-        left: -270px;
+        left: -285px;
     }
     #flipCard5{
-        left: -123px;
+        left: -127px;
     }
     #flipCard6{
-        left: -169px;
+        left: -176px;
     }
     #flipCard7{
-        left: -220px;
+        left: -227px;
     }
     #flipCard8{
-        left: -270px;
+        left: -283px;
     }
     #flipCard9{
-        left: -123px;
+        left: -127px;
     }
     #flipCard10{
-        left: -169px;
+        left: -176px;
     }
     #flipCard11{
-        left: -220px;
+        left: -227px;
     }
     #flipCard12{
-        left: -270px;
+        left: -283px;
     }
 }
 /*////////////////////////////////////////////////////*/

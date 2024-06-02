@@ -296,7 +296,7 @@
 /* Media Query for max-width 425px */
 @media all and (max-width: 425px) {
     #aboutpage>header>h1 {
-        font-size: 80px;
+        font-size: 60px;
         left: 180px;
         top: 22px;
     }
@@ -315,7 +315,7 @@
     #aboutpage>figure {
         width: 328px;
         top: 129px;
-        left: 53px;
+        left: 40px;
         height: 346px;
         overflow: hidden;
     }
@@ -324,7 +324,7 @@
         width: 350px;
         height: 400px;
         top: 484px;
-        left: 51px;
+        left: 40px;
     }
 
     #aboutpage>main>div>p {
@@ -348,9 +348,9 @@
 /* Media Query for max-width 375px */
 @media all and (max-width: 375px) {
     #aboutpage > header > h1 {
-        font-size: 70px;
-        left: 139px;
-        top: 22px;
+        font-size: 60px;
+        left: 150px;
+        top: 15px;
     }
 
     #aboutpage > aside > div {
@@ -367,7 +367,7 @@
     #aboutpage > figure {
         width: 328px;
         top: 129px;
-        left: 24px;
+        left: 15px;
         height: 346px;
         overflow: hidden;
     }
@@ -380,7 +380,8 @@
     }
 
     #aboutpage > main > div > p {
-        font-size: 15px;
+        font-size: 14px;
+        left: -10px;
     }
 
     #aboutpage > section > div {
