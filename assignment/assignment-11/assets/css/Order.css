@@ -79,6 +79,7 @@
     position: absolute;
     top: 680px;
     left: 520px;
+
 }
 /*#container{*/
 /*    background-color: black;*/
@@ -143,7 +144,7 @@
 }
 
 #table_head>tr>th{
-    background-color: black;
+    background-color: green;
     color: white;
     font-size: 15px;
     font-family: 'Inria Sans', sans-serif;
